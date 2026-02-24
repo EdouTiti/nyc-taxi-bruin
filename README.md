@@ -7,15 +7,16 @@ We will create a pipeline with 3 layers:
 3. Reports (SQL): aggregate metrics + run quality checks
 Bruin runs assets in dependency order and supports validation (dry-run style) before executing.
 
-We use GitHub Codespaces to do the project.
-# Create a new repository named as "nyc-taxi-bruin"
-# Install Bruin in Codespaces in terminal bash of docker and verify the version
+- We use GitHub Codespaces to do the project.
+- Create a new repository named as "nyc-taxi-bruin"
+- Install Bruin in Codespaces in terminal bash of docker and verify the version
 curl -LsSf https://getbruin.com/install/cli | sh
 bruin version
-# Initialize the project zoomcamp folder
+
+- Initialize the project zoomcamp folder
 bruin init zoomcamp my-taxi-pipeline
 cd my-taxi-pipeline
 ls -la
 
-# Then, the pipeline is created. you should get started
+- Then, the pipeline is created. you should get started
 bruin validate my-taxi-pipeline
