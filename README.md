@@ -25,5 +25,5 @@ NYC Taxi dataset (2019-2020)
 
 - Install Bruin in Codespaces in terminal bash of docker and verify the version
 ```bash curl -LsSf https://getbruin.com/install/cli | sh
-   bruin version ```
+   bruin version
 
