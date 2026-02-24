@@ -23,14 +23,12 @@ NYC Taxi dataset (2019-2020)
 - Use GitHub Codespaces to do the project.
 - Create a new repository named as "nyc-taxi-bruin"
 - Install Bruin in Codespaces in terminal bash of docker and verify the version
-```bash
-curl -LsSf https://getbruin.com/install/cli | sh
+```bash curl -LsSf https://getbruin.com/install/cli | sh
 bruin version
 
 - Initialize the project zoomcamp folder
 ```bash bruin init zoomcamp my-taxi-pipeline
       cd my-taxi-pipeline 
       ls -la
-
 - Then, the pipeline is created. You should get started
   ```bash bruin validate my-taxi-pipeline
