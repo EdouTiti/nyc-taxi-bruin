@@ -10,13 +10,13 @@ Bruin runs assets in dependency order and supports validation (dry-run style) be
 - We use GitHub Codespaces to do the project.
 - Create a new repository named as "nyc-taxi-bruin"
 - Install Bruin in Codespaces in terminal bash of docker and verify the version
-curl -LsSf https://getbruin.com/install/cli | sh
-bruin version
+  curl -LsSf https://getbruin.com/install/cli | sh
+  bruin version
 
 - Initialize the project zoomcamp folder
-bruin init zoomcamp my-taxi-pipeline
-cd my-taxi-pipeline
-ls -la
+  bruin init zoomcamp my-taxi-pipeline
+  cd my-taxi-pipeline
+  ls -la
 
 - Then, the pipeline is created. you should get started
-bruin validate my-taxi-pipeline
+  bruin validate my-taxi-pipeline
