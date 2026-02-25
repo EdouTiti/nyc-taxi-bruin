@@ -20,14 +20,16 @@ NYC Taxi dataset (2019-2020)
 - GitHub Codespaces for Cloud development environment
 
 ### Steps
-- Use GitHub Codespaces to do the project.
-- Create a new repository named as "nyc-taxi-bruin"
+   ````bash
+   #Use GitHub Codespaces to do the project.
 
-- Install Bruin in Codespaces in terminal bash of docker and verify the version
-````bash curl -LsSf https://getbruin.com/install/cli | sh````
-   bruin version````
+   #Create a new repository named as "nyc-taxi-bruin"
 
-- Initialize the project zoomcamp folder
-````bash bruin init zoomcamp my-taxi-pipeline
+   #Install Bruin in Codespaces in terminal bash of docker and verify the version
+    curl -LsSf https://getbruin.com/install/cli | sh
+    bruin version
+
+   #Initialize the project zoomcamp folder
+    bash bruin init zoomcamp my-taxi-pipeline
     cd my-taxi-pipeline
     ls -la````
